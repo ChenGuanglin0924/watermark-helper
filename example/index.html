@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="demo" width="300" height="400" style="border: 1px solid red"></canvas>
+    <script src="../dist/watermark-helper.js"></script>
+    <script>
+        const helper = new WatermarkHelper('#demo', {images: ['./image.jpg'], text: '赵钟倩我爱你'});
+    </script>
+</body>
+</html>
